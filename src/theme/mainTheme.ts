@@ -10,10 +10,10 @@ export const theme:ITheme = {
   grey5: '#E4E6EA',
   grey6: '#FFFFFF',
   fontSize: {
-      xs: '0.875em',
-      s: '1em',
-      m: '1.375em',
-      l: '2.125em',
-      xl: '2.75em',
+      xs: '14px',
+      s: '16px',
+      m: '22px',
+      l: '26px',
+      xl: '34px',
   },
 };
