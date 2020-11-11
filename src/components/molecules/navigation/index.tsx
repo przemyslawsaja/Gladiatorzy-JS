@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import Hamburger from '../../../assets/icons/HamburgerIcon'
-import Logo1 from '../../../assets/icons/logo1'
+import menu from '../../../assets/icons/menu.svg'
+import logo from '../../../assets/icons/logo.svg'
 
 const NavigationWrapper = styled.div`
   position: fixed;
@@ -18,8 +18,8 @@ const NavigationWrapper = styled.div`
 const Navigation = () => {
   return (
     <NavigationWrapper>
-      <Logo1 />
-      <Hamburger/>
+      <img src={logo} alt="GladiatorzyJS"/>
+      <img src={menu} alt="menu"/>
     </NavigationWrapper>
   )
 }
