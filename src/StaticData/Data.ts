@@ -5,8 +5,17 @@ import idea from '../assets/icons/idea.svg'
 import teams from '../assets/icons/teams.svg'
 import connections from '../assets/icons/connections.svg'
 import review from '../assets/icons/review.svg'
+import globe from '../assets/icons/globe.svg'
+import exercises from '../assets/icons/exercises.svg'
+import projects from '../assets/icons/projects.svg'
+import avatar1 from '../assets/img/Ellipse-1.png';
+import avatar2 from '../assets/img/Ellipse-2.png'
+import avatar3 from '../assets/img/Ellipse-3.png'
+import avatar4 from '../assets/img/Ellipse-4.png'
+import avatar5 from '../assets/img/Ellipse-5.png'
+import avatar6 from '../assets/img/Ellipse-6.png'
 
-export const Section2Content = [
+export const Section_2_DATA = [
   {
     inverted: true,
     icon: graduationHat,
@@ -54,4 +63,30 @@ export const LandingBoard_1 = [
     alt: 'laptop',
     description: 'Pracujemy w zgranych teamach nad ambitnymi projektami do portfolio.'
   },
+]
+export const LandingBoard_2 = [
+  {
+    icon: globe,
+    alt: 'globe',
+    description: 'Jesteśmy pomocną i zmotywowaną społecznością JSowców na Discordzie'
+     
+  },
+  {
+    icon: exercises,
+    alt: 'exercises',
+    description: 'Realizujemy trudne i wymagające zadania w code pairing z cotygodniowym code review'
+  },
+  {
+    icon: projects,
+    alt: 'projects',
+    description: 'Pracujemy w zgranych teamach nad ambitnymi projektami do portfolio.'
+  },
+]
+export const Avatars = [
+  {id: 1, img: avatar1},
+  {id: 2, img: avatar2},
+  {id: 3, img: avatar3},
+  {id: 4, img: avatar4},
+  {id: 5, img: avatar5},
+  {id: 6, img: avatar6},
 ]

@@ -1,9 +1,9 @@
 import React from 'react'
 import Svg from '../../../atoms/svg'
 import { SectionWrapper, Container, TextContainer} from './styles'
-import {Section2Content} from '../../../../StaticData/Data'
+import {Section_2_DATA} from '../../../../StaticData/Data'
 
-const Section1 = () => {
+const Section2 = () => {
   return (
     <SectionWrapper>
       <div>
@@ -11,7 +11,7 @@ const Section1 = () => {
         <p>Jako młody programista na codzień mierzysz sie z poniższymi problemami:</p>
       </div>
 
-      {Section2Content.map(e => {
+      {Section_2_DATA.map(e => {
         return (
         <Container inverted={e.inverted}> 
           <Svg icon={e.icon} alt={e.alt} circleBg/>
@@ -26,4 +26,4 @@ const Section1 = () => {
   )
 }
 
-export default Section1
+export default Section2

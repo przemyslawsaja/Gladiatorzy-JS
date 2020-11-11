@@ -1,6 +1,6 @@
 import React from 'react'
 import { ThemeProvider } from 'styled-components';
-import Navigation from '../components/molecules/navigation'
+import Navigation from '../components/organisms/navigation'
 import { theme } from '../theme/mainTheme'
 import GlobalStyle  from '../theme/globalStyles';
 import Landing from './Landing';

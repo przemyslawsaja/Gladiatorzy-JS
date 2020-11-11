@@ -1,26 +1,14 @@
 import React, {FC} from 'react'
-import styled from 'styled-components'
 import Svg from '../../atoms/svg'
 import {ILandingBoard} from '../../../__types__/ILandingBoard'
+import { SectionWrapper, CardsWrapper, LandingCard} from './style'
 
-const SectionWrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-`
-const CardsWrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-`
-const LandingCard = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-`
 const LandingBoard:FC<ILandingBoard> = ({header, description, BoardData}) => {
   return (
     <SectionWrapper>
       <h2>{header}</h2>
-      <p>{description}</p>
+      {description && <p>{description}</p>}
+     
       <CardsWrapper>
         {BoardData.map(e => {
           return(

@@ -4,9 +4,7 @@ export const SectionWrapper = styled.section`
   display: flex;
   flex-direction: column;
   gap: 30px;
-  height: 100vh;
-  margin: 0 20px;
-  
+  height: 100vh;  
 `
 export const Container = styled.div<{inverted?: boolean}>`
   display: flex;

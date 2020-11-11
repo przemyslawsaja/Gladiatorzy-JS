@@ -1,6 +1,6 @@
 export interface ILandingBoard {
   header: string,
-  description: string,
+  description?: string,
   BoardData: ILandingCard[]
 }
 
