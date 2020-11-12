@@ -5,8 +5,9 @@ const size:IBreakpoints = {
   mobileM: '375px',     
   mobileL: '425px',     
   tablet: '768px',     
-  laptop: '1024px',     
-  laptopL: '1440px',     
+  laptop: '1024px',      
+  laptopL: '1400px',
+  laptopM: '1800px',     
   desktop: '2560px' 
 }; 
 
@@ -17,5 +18,6 @@ const size:IBreakpoints = {
     tablet: `(min-width: ${size.tablet})`,     
     laptop: `(min-width: ${size.laptop})`, 
     laptopL: `(min-width: ${size.laptopL})`,     
+    laptopM: `(min-width: ${size.laptopM})`, 
     desktop: `(min-width: ${size.desktop})`, 
   };

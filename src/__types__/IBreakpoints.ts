@@ -4,6 +4,7 @@ export interface IBreakpoints {
   mobileL: string,     
   tablet: string,     
   laptop: string,     
-  laptopL: string,     
+  laptopL: string,    
+  laptopM: string,      
   desktop: string
-}
+} 

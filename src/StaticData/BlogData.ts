@@ -115,5 +115,110 @@ export const BlogCards:IPostCard[] = [
       "qa"
     ]
   },
+  {
+    img: bg0,
+    date: '11.10.2020',
+    title: 'Zapytaj studenta Akademii LocalHost- cześc 3 - Karol - Python/Backend + Devops',
+    description: 'Zbiór z zaawansowanymi zadaniami na testy z JS i React',
+    tags: [
+      "akademia",
+      "nauka",
+      "python",
+      "qa"
+    ]
+  },
+  {
+    img: bg1,
+    date: '11.10.2020',
+    title: 'Zapytaj studenta Akademii LocalHost- cześc 3 - Karol - Python/Backend + Devops',
+    description: 'Zbiór z zaawansowanymi zadaniami na testy z JS i React',
+    tags: [
+      "akademia",
+      "nauka",
+      "python",
+      "qa"
+    ]
+  },
+  {
+    img: bg2,
+    date: '11.10.2020',
+    title: 'Zapytaj studenta Akademii LocalHost- cześc 3 - Karol - Python/Backend + Devops',
+    description: 'Zbiór z zaawansowanymi zadaniami na testy z JS i React',
+    tags: [
+      "akademia",
+      "nauka",
+      "python",
+      "qa"
+    ]
+  },
+  {
+    img: bg3,
+    date: '11.10.2020',
+    title: 'Zapytaj studenta Akademii LocalHost- cześc 3 - Karol - Python/Backend + Devops',
+    description: 'Zbiór z zaawansowanymi zadaniami na testy z JS i React',
+    tags: [
+      "akademia",
+      "nauka",
+      "python",
+      "qa"
+    ]
+  },
+  {
+    img: bg4,
+    date: '11.10.2020',
+    title: 'Zapytaj studenta Akademii LocalHost- cześc 3 - Karol - Python/Backend + Devops',
+    description: 'Zbiór z zaawansowanymi zadaniami na testy z JS i React',
+    tags: [
+      "akademia",
+      "nauka",
+      "qa"
+    ]
+  },
+  {
+    img: bg5,
+    date: '11.10.2020',
+    title: 'Zapytaj studenta Akademii LocalHost- cześc 3 - Karol - Python/Backend + Devops',
+    description: 'Zbiór z zaawansowanymi zadaniami na testy z JS i React',
+    tags: [
+      "nauka",
+      "python",
+      "qa"
+    ]
+  },
+  {
+    img: bg6,
+    date: '11.10.2020',
+    title: 'Zapytaj studenta Akademii LocalHost- cześc 3 - Karol - Python/Backend + Devops',
+    description: 'Zbiór z zaawansowanymi zadaniami na testy z JS i React',
+    tags: [
+      "akademia",
+      "nauka",
+      "qa"
+    ]
+  },
+  {
+    img: bg7,
+    date: '11.10.2020',
+    title: 'Zapytaj studenta Akademii LocalHost- cześc 3 - Karol - Python/Backend + Devops',
+    description: 'Zbiór z zaawansowanymi zadaniami na testy z JS i React',
+    tags: [
+      "akademia",
+      "nauka",
+      "python",
+      "qa"
+    ]
+  },
+  {
+    img: bg8,
+    date: '11.10.2020',
+    title: 'Zapytaj studenta Akademii LocalHost- cześc 3 - Karol - Python/Backend + Devops',
+    description: 'Zbiór z zaawansowanymi zadaniami na testy z JS i React',
+    tags: [
+      "akademia",
+      "nauka",
+      "python",
+      "qa"
+    ]
+  },
 
 ]

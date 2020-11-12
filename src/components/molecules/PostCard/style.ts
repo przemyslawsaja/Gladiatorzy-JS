@@ -1,11 +1,12 @@
 import styled from 'styled-components'
-import bg from '../../../assets/img/blog/bg-1.png'
 import loupe from '../../../assets/icons/loupe.svg'
+import { device } from '../../../devices/breakpoints'
 
 export const CardWrapper = styled.div`
+  justify-self: center;
   margin: 20px 0;
   min-height: 485px;
-  width: 328px;
+  width: 300px;
   position: relative;
   border-radius: 0px 0px 4px 4px;
   -webkit-box-shadow: 0px 6px 19px 0px rgba(0,0,0,0.33);
@@ -14,9 +15,10 @@ export const CardWrapper = styled.div`
 
 `
 export const ImageWrapper = styled.div<{img: string}>`
+
   background-image: url( ${({img})=> img} );
   background-size: cover;
-  width: 328px;
+  width: 100%;
   height: 192px;
   left: 0px;
   top: 0px;

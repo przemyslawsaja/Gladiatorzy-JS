@@ -1,10 +1,11 @@
 import React from 'react'
+import MainTemplate from '../../templates/MainTemplate'
 
 const Post = () => {
   return (
-    <div>
+    <MainTemplate>
       Post
-    </div>
+    </MainTemplate>
   )
 }
 

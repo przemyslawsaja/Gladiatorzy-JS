@@ -11,12 +11,15 @@ const Wrapper = styled.div`
   align-items: center;
   justify-content: center;
 `
-const svg:FC<ISvg> = ({icon, alt, circleBg}) => {
+const StyledImg = styled.img<{scale?: number}>`
+  transform: scale(${({scale}) => scale});
+`
+const svg:FC<ISvg> = ({scale, icon, alt, circleBg}) => {
   return (
     <>
       {circleBg 
       ? <Wrapper><img src={icon} alt={alt} /></Wrapper>
-      : <img src={icon} alt={alt} /> }
+      : <StyledImg src={icon} alt={alt} scale={scale}/> }
     </>
 
   )
