@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import Section1 from '../components/organisms/LandingSections/Section1'
 import Section2 from '../components/organisms/LandingSections/Section2'
 import Section3 from '../components/organisms/LandingSections/Section3'
-import LandingBoard from '../components/molecules/LandingBoard/LandingBoard'
+import LandingBoard from '../components/molecules/LandingBoard'
 import {LandingBoard_1} from '../StaticData/Data'
 
 const LandingWrapper = styled.div`

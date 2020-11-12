@@ -11,4 +11,5 @@ export const NavigationWrapper = styled.div`
   height: 80px;
   width: 100vw;
   background: #fff;
+  z-index: 9999;
 `

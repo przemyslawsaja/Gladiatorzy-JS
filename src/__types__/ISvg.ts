@@ -1,5 +1,5 @@
 export interface ISvg {
-  icon: any,
+  icon: string,
   alt: string,
   circleBg?: boolean
 }
