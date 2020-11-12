@@ -49,4 +49,3 @@ export const ExitButton = styled.button`
   background-image: url(${exit});
   background-color: ${({theme}) => theme.primmary};
 `
-const SideBarLink = 

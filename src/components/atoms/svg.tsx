@@ -14,13 +14,13 @@ const Wrapper = styled.div`
 const StyledImg = styled.img<{scale?: number}>`
   transform: scale(${({scale}) => scale});
 `
-const svg:FC<ISvg> = ({scale, icon, alt, circleBg}) => {
+const svg:FC<ISvg> = ({scale, icon, alt, circleBg, className}) => {
   return (
-    <>
+    <div className={className}>
       {circleBg 
       ? <Wrapper><img src={icon} alt={alt} /></Wrapper>
       : <StyledImg src={icon} alt={alt} scale={scale}/> }
-    </>
+    </div>
 
   )
 }
