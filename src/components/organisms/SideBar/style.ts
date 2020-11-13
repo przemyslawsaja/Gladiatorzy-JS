@@ -1,4 +1,3 @@
-import { Link as LinkProto} from 'react-router-dom'
 import styled, {keyframes} from 'styled-components'
 import exit from '../../../assets/icons/exit.svg'
 const SlideIn = keyframes`

@@ -5,7 +5,7 @@ import BodyLarge from '../../atoms/BodyLarge'
 import Svg from '../../atoms/svg'
 import SideBar from '../SideBar'
 import { useLocation } from 'react-router-dom';
-import { RoutePaths} from '../../../routes'
+import { RoutePaths} from '../../../routes';
 import NavigationLinks from '../../../StaticData/Navigation'
 import {
   NavigationWrapper, 

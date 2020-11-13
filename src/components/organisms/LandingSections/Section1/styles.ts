@@ -21,7 +21,9 @@ export const WelcomeMessage = styled.div`
 `
 export const StyledSvg = styled(Svg)`
   @media ${device.laptop} {
-    transform: scale(1.5)
+    transform: scale(1.3)
   }
-  
+  @media ${device.laptopL} {
+    transform: scale(1.6)
+  }
 `
