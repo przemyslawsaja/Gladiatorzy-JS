@@ -85,8 +85,11 @@ export const LandingBoard_2 = [
 export const Avatars = [
   {id: 1, img: avatar1},
   {id: 2, img: avatar2},
-  {id: 3, img: avatar3},
+  {id: 38, img: avatar3},
   {id: 4, img: avatar4},
   {id: 5, img: avatar5},
   {id: 6, img: avatar6},
+  {id: 7, img: avatar1},
+
+
 ]

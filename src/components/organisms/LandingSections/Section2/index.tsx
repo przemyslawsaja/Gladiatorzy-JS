@@ -1,16 +1,17 @@
 import React from 'react'
 import Svg from '../../../atoms/svg'
-import { SectionWrapper, Container, TextContainer} from './styles'
+import { SectionWrapper, Container, TextContainer, CardsContainer} from './styles'
 import {Section_2_DATA} from '../../../../StaticData/Data'
+import H1 from '../../../atoms/H1'
 
 const Section2 = () => {
   return (
     <SectionWrapper>
       <div>
-        <h2>Zapewne masz problem...</h2>
+        <H1>Zapewne masz problem...</H1>
         <p>Jako młody programista na codzień mierzysz sie z poniższymi problemami:</p>
       </div>
-
+      <CardsContainer>
       {Section_2_DATA.map(e => {
         return (
         <Container inverted={e.inverted}> 
@@ -22,6 +23,7 @@ const Section2 = () => {
         </Container>
         )
       })}
+      </CardsContainer>
   </SectionWrapper>
   )
 }
