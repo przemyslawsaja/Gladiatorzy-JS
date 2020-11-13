@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import "animate.css/animate.min.css";
 
 const GlobalTheme = {
   textColor: '#000',

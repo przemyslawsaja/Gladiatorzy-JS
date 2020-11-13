@@ -34,4 +34,5 @@ export const LandingCard = styled.div`
 export const StyledDecription = styled.div`
   max-width: 350px;
   margin-bottom: 50px;
+
 `
