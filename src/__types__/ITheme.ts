@@ -1,6 +1,7 @@
 export interface ITheme {
   primmary: string,
   secondary: string,
+  error: string,
   grey1: string,
   grey2: string,
   grey3: string,

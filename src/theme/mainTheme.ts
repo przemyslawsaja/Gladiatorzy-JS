@@ -2,7 +2,8 @@ import { ITheme } from '../__types__/ITheme'
 
 export const theme:ITheme = {
   primmary: '#F8DF2A',
-  secondary: '#34D9EA',
+  secondary: '#FFE845',
+  error: '#F45B5B',
   grey1: '#1B2029',
   grey2: '#505869',
   grey3: '#868D9C',
