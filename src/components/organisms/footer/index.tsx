@@ -35,10 +35,7 @@ const Footer = () => {
                 Strona główna
               </FooterLink>
               <FooterLink to={RoutePaths.ABOUT}>
-                O mnie
-              </FooterLink>
-              <FooterLink to={RoutePaths.CONTACT}>
-                Kontakt
+                Autorzy
               </FooterLink>
             </FooterLinksContainer>
           
@@ -53,7 +50,7 @@ const Footer = () => {
               <Svg  icon={git} alt="github"/>
             </DestkopSocialMedia>
         </FooterContent>
-        <Copyright>© Copyright 2020 by Localhost Group sp.z.o.o</Copyright>
+        <Copyright>© Copyright 2020 by Przemyslaw Saja</Copyright>
       </FooterWrapper>
   )
 }
