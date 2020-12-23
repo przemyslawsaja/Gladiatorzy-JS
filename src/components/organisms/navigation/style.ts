@@ -14,18 +14,17 @@ export const Link = styled(LinkProto)<{active?: boolean}>`
 export const NavigationWrapper = styled.div`
   display: flex;
   position: fixed;
-  z-index: 9999;
-  position: fixed;
-  top: 0;
   flex-direction: row;
+  z-index: 9999;
+  top: 0;
   left: 50%;
   transform: translateX(-50%);
   justify-content: space-between;
-  align-items: center;
   width: 100%;
   background: #fff;
   padding: 20px;
   height: 80px;
+  align-items: center;
 
   
   @media ${device.laptop} { 
@@ -40,6 +39,7 @@ export const NavLinks = styled.ul`
   gap: 20px;
   display: flex;
   flex-direction: row;
+
   }
 `
 export const SpecialButton = styled.button`
@@ -55,12 +55,24 @@ export const SpecialButton = styled.button`
     background-color: ${({theme}) => theme.grey1};
 }
 `
-export const Hamburger = styled.button`
+export const MobileButton = styled.button`
   border: none;
   background: none;
-  position: relative;
+  margin: 0 5px;
 
   @media ${device.laptop} { 
     display: none;
   }
+`
+export const AllDevicesButton = styled.button`
+  outline: none;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 0 5px;
+  &:hover {
+    transform: scale(1.2);
+  }
+
 `

@@ -1,17 +1,20 @@
 import Post from '../pages/Post/Post'
-import Blog from '../pages/Blog'
+import Blog from '../pages/Curses'
+import About from '../pages/Authors'
+import SignIn from './../pages/SignIn';
+import SignUp from '../pages/SignUp';
 import Landing from '../pages/Landing'
 import NotFound from '../pages/NotFound'
-import About from '../pages/About'
-import Contact from '../pages/Contact'
 import { RouteProps } from 'react-router-dom';
+
 
 export enum RoutePaths {
   HOME = '/',
-  BLOG = '/Blog',
+  CURSES= '/Curses',
   POST = '/Post',
   ABOUT = '/About',
-  CONTACT = '/Contact'
+  SIGNIN = '/Sign-in',
+  SIGNUP = '/Sign-up',
 }
 
 const routes: RouteProps[] = [
@@ -21,10 +24,9 @@ const routes: RouteProps[] = [
     component: Landing,
   },
   {
-    path: RoutePaths.BLOG,
+    path: RoutePaths.CURSES,
     exact: true,
     component: Blog,
-
   },
   {
     path: RoutePaths.POST,
@@ -35,12 +37,16 @@ const routes: RouteProps[] = [
     path: RoutePaths.ABOUT,
     exact: true,
     component: About,
-
   },
   {
-    path: RoutePaths.CONTACT,
+    path: RoutePaths.SIGNIN,
     exact: true,
-    component: Contact,
+    component: SignIn,
+  },
+  {
+    path: RoutePaths.SIGNUP,
+    exact: true,
+    component: SignUp,
   },
   {
     exact: false,
